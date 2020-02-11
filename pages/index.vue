@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div class="diss">
+    </div>
     <ul>
       <li>
         <nuxt-link :to="{name: 'index'}">HOME</nuxt-link>
@@ -24,5 +26,9 @@ export default {
 </script>
 
 <style>
-
+  .diss {
+    width: 982px;
+    height: 55px;
+    background: url('~static/logo.png') no-repeat;
+  }
 </style>
