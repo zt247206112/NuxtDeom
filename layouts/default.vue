@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>JSTeng.com 技术腾博客</p>
     <nuxt/>
   </div>
 </template>

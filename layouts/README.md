@@ -7,3 +7,5 @@ https://nuxtjs.org/guide/views#layouts
 
 **This directory is not required, you can delete it if you don't want to use it.**
 
+#该文件下的文件名是固定的
+

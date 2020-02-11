@@ -15,6 +15,23 @@ export default {
     validate({params}) {
         // 路由参数校验
         return /^\d+$/.test(params.id)
+    },
+    data () {
+        return {
+            title: this.$route.params.title
+        }
+    },
+    head () {
+        return {
+            title: this.title,
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'news1',
+                    content: 'This is news page'
+                }
+            ]
+        }
     }
 }
 </script>

@@ -7,10 +7,10 @@
               <nuxt-link :to="{name: 'index'}">HOME</nuxt-link>
           </li>
           <li>
-              <nuxt-link :to="{name: 'news-id', params: {id: 123}}">news-1</nuxt-link>
+              <nuxt-link :to="{name: 'news-id', params: {id: 123,title:'I am News'}}">news-1</nuxt-link>
           </li>
           <li>
-              <nuxt-link :to="{name: 'news-id', params: {id: 456}}">news-2</nuxt-link>
+              <nuxt-link :to="{name: 'news-id', params: {id: 'zt'}}">news-2</nuxt-link>
           </li>
       </ul>
   </div>
