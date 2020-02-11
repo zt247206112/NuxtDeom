@@ -1,3 +1,23 @@
 html {
     color: red;
 }
+/**默认的过度动画类名**/
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 1s;
+}
+.page-enter,
+.page-leave-active {
+    opacity: 0;
+}
+/**自定义的过度动画类名，在news/index.vue中有应用**/
+.test-enter-active,
+.test-leave-active {
+    transition: all 1s;
+    font-size: 12px;
+}
+.test-enter,
+.test-leave-active {
+    opacity: 0;
+    font-size: 40px;
+}

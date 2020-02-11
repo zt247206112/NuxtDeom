@@ -4,7 +4,7 @@
       <p>NewsId：{{$route.params.id}}</p>
       <ul>
           <li>
-              <a href="/">HOME</a>
+              <nuxt-link :to="{name: 'index'}">HOME</nuxt-link>
           </li>
       </ul>
   </div>

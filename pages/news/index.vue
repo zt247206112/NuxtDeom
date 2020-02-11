@@ -4,13 +4,13 @@
       <p>NewsID：{{$route.params.newsId}}</p>
       <ul>
           <li>
-              <a href="/">HOME</a>
+              <nuxt-link :to="{name: 'index'}">HOME</nuxt-link>
           </li>
           <li>
-              <a href="/news/123">news-1</a>
+              <nuxt-link :to="{name: 'news-id', params: {id: 123}}">news-1</nuxt-link>
           </li>
           <li>
-              <a href="/news/456">news-2</a>
+              <nuxt-link :to="{name: 'news-id', params: {id: 456}}">news-2</nuxt-link>
           </li>
       </ul>
   </div>
@@ -18,6 +18,7 @@
 
 <script>
 export default {
+    transition: 'test'
 }
 </script>
 
